@@ -1,0 +1,15 @@
+Package: usbmuxd
+Architecture: arm
+Installed-Size: 120
+Maintainer: @xunmod
+Version: 1.1.1-p20241202-0
+Homepage: https://libimobiledevice.org
+Depends: libimobiledevice-glue, libplist, libusb
+Description: A socket daemon to multiplex connections from and to iOS devices
+Filename: dists/termux/root/binary-arm/usbmuxd_1.1.1-p20241202-0_arm.deb
+Size: 26476
+MD5Sum: d46c450935d4a9f1b62b5cca497d6f74
+SHA1: 914045733afd73922ba6f1d7439a1a77dc7a1bbc
+SHA256: 9e3f5408c1bae46a23e46ea92f7578be256c8eacc28667dc4368fb3247f4becf
+SHA512: 911583903098b9d594a2972f645e973e9c8f287caaef953a2f8e36bd51f0be937e7ad6a197706195337577e5e5cc4e473c166eaeaf57a7551678945ea4ddbd33
+
