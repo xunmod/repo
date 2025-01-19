@@ -7,9 +7,9 @@ Homepage: https://libimobiledevice.org
 Depends: libimobiledevice (>= 1.3.0), libimobiledevice-glue (>= 1.0.0), libplist (>= 2.6.0), libusb
 Description: A socket daemon to multiplex connections from and to iOS devices
 Filename: dists/termux/root/binary-aarch64/usbmuxd_1.1.1-p20241202-1_aarch64.deb
-Size: 28300
-MD5Sum: 2fb47f4830520752212af5a88dd41f70
-SHA1: 81d4b37fced34916fb1df5b0b263a023b8b36971
-SHA256: 4a87ae60a28d56c466defe625bf58216a199374ebcaa7dfbcd982144d8ca78a8
-SHA512: 0fc10a3549319c27e9c871f5f05d553fee867edb9ef1e66d6c35e3092c8a274cdf3ec1bce3d86c2094d5490cb71582d3c14bcc56820b557fba4e3cb6799923f5
+Size: 28244
+MD5Sum: 1fda71351444840c07cebdb283721d9c
+SHA1: cde46b4baee5d355e37e0f94c24a4b9057a107ba
+SHA256: fa4b7136521548498583ccb3aab5e71579a1b99c248c7adb5a5081ebe8dc33bd
+SHA512: cce4cc880122816f1fea20bb15230217c4bdbfa8d83d1919487f188ebe95eee693111c097c5937215f90a7b3e3d735f4ab11b201c0d9ea7f5aa89608c5a54a54
 
