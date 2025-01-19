@@ -1,0 +1,5 @@
+data/data/com.termux/files/usr/bin/usbmuxd                                       usbmuxd
+data/data/com.termux/files/usr/lib/udev/rules.d/39-usbmuxd.rules                 usbmuxd
+data/data/com.termux/files/usr/share/doc/usbmuxd/copyright                       usbmuxd
+data/data/com.termux/files/usr/share/doc/usbmuxd/copyright.1                     usbmuxd
+data/data/com.termux/files/usr/share/man/man8/usbmuxd.8.gz                       usbmuxd
