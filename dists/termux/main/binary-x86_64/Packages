@@ -2,136 +2,136 @@ Package: libimobiledevice-glue-static
 Architecture: x86_64
 Installed-Size: 144
 Maintainer: @xunmod
-Version: 1.3.1
+Version: 1.3.1-1
 Homepage: https://libimobiledevice.org/
-Depends: libimobiledevice-glue (= 1.3.1)
+Depends: libimobiledevice-glue (= 1.3.1-1)
 Description: Static libraries for libimobiledevice-glue
-Filename: dists/termux/main/binary-x86_64/libimobiledevice-glue-static_1.3.1_x86_64.deb
-Size: 27016
-MD5Sum: 92464a7d7ae0068431595035d96bbfbd
-SHA1: eba3aba1813ce8ea8456e6784f6c077ca8631fdc
-SHA256: 1f894eb1496f53bc14ebf89dfbbbd1c328b8c6b16899f1d26709042045172833
-SHA512: 745ace2f895b68f25a8ed150a6bf0c0142e75bc73aed073e8a0c62d0ed5a89ea170152d723383f6b1b6fea53a86de755ba26e00e361638b8b9d4e07ca125c0c3
+Filename: dists/termux/main/binary-x86_64/libimobiledevice-glue-static_1.3.1-1_x86_64.deb
+Size: 27012
+MD5Sum: 2736c71db7561326b323110a716cbb7c
+SHA1: 4e6ce07c1b95f74cecfe702e31e85db72da5b4df
+SHA256: 47411e6f61d0678ab43ea116be6693dcf058ba0b2dc05ec3c21bcc99b4955de4
+SHA512: 71a0978547a33c4a64b196f898dab989e1fb309705f2f24c243ab068a67ff1c0fda6092ef2f6a5b6a4132b08793c89fcf2d8b87fd48d42fb60512b598d0e17b8
 
 Package: libimobiledevice-glue
 Architecture: x86_64
 Installed-Size: 172
 Maintainer: @xunmod
-Version: 1.3.1
+Version: 1.3.1-1
 Homepage: https://libimobiledevice.org/
-Depends: libplist
+Depends: libplist (>= 2.3.0)
 Description: Library with common code used by the libraries and tools around the libimobiledevice project
-Filename: dists/termux/main/binary-x86_64/libimobiledevice-glue_1.3.1_x86_64.deb
-Size: 29092
-MD5Sum: 74b4703fa7d3ddeb253164f96d4d9d6e
-SHA1: 00a130ddd26e9728461ee3da6a11e083e416446d
-SHA256: fdb23cea205dc8a12629fab7b528fac67514189b4ce853fcd347c4445f98300e
-SHA512: 656a26cc61150b4b019d64985fe0e32464228c496c1e416f211f224c97c8cfc4ad64ecc627c44bf137bdb964c51c6c8fe70c0bb886a0650761f50f8beed3ac28
+Filename: dists/termux/main/binary-x86_64/libimobiledevice-glue_1.3.1-1_x86_64.deb
+Size: 29128
+MD5Sum: d400b381433a777f696d64ec3886baf8
+SHA1: 979ffcc7bee11c8ff95ef6b5b9205b0c1de22ada
+SHA256: 15248e88db093a1326b9c58293d91a32e2c079ae0cf05aa79be2b7fcbaf3b274
+SHA512: acf281460c7170a10c7428542ace05e0acf5cb6a819d77c8dd415ce4829d3117d47d75db2e75475f2f0b37c4a3114c6c6630a84ac47293f1139c529fca83ef73
 
 Package: libimobiledevice-static
 Architecture: x86_64
 Installed-Size: 496
 Maintainer: @xunmod
-Version: 1.3.0-p20241202-0
+Version: 1.3.0-p20250106-0
 Homepage: https://libimobiledevice.org/
-Depends: libimobiledevice (= 1.3.0-p20241202-0)
+Depends: libimobiledevice (= 1.3.0-p20250106-0)
 Description: Static libraries for libimobiledevice
-Filename: dists/termux/main/binary-x86_64/libimobiledevice-static_1.3.0-p20241202-0_x86_64.deb
-Size: 117744
-MD5Sum: cc3c56231050f115f77e560264155498
-SHA1: befdba8e196faf6f2fcfbf84d67b7ffafcfed3fa
-SHA256: 05e0eb3af5725ac048cddc7bc919f7e72711ca0d0b555cb63d0dccdf83286ee9
-SHA512: d6b0f9a75b9238df4198405b9f5e97f4be19dd513c48ed69a823d56d676c53146a98917539441b34132a69bd0af44be3fa445b5796bca747c1e130da41f0ea57
+Filename: dists/termux/main/binary-x86_64/libimobiledevice-static_1.3.0-p20250106-0_x86_64.deb
+Size: 117888
+MD5Sum: b69f17ae905c1c26c972b64fc5d9c7b9
+SHA1: ab76257b850882db3cff62ff703d69fb86085c5e
+SHA256: b2dbcfa75185c663eaf42e70af09842d42d5eea3523a76442934af6e8592a07c
+SHA512: a6f26a3ffee1d4b891a695cf9ad73f5d59e9ca32ab0b160f03b9557a49c23679bf1aba1b14b82b768a7016f10b0bb1dbd24b106ab9fda15852b1f4673047dffa
 
 Package: libimobiledevice
 Architecture: x86_64
 Installed-Size: 1104
 Maintainer: @xunmod
-Version: 1.3.0-p20241202-0
+Version: 1.3.0-p20250106-0
 Homepage: https://libimobiledevice.org/
-Depends: libimobiledevice-glue, libplist, libtatsu, libusbmuxd, openssl
+Depends: libimobiledevice-glue (>= 1.3.0), libplist (>= 2.3.0), libtatsu (>= 1.0.3), libusbmuxd (>= 2.0.2), openssl
 Description: A library to communicate with services on iOS devices using native protocols
-Filename: dists/termux/main/binary-x86_64/libimobiledevice_1.3.0-p20241202-0_x86_64.deb
-Size: 234576
-MD5Sum: 8dbcefd97f24757bd78d669dafaf834c
-SHA1: f47a662f3e01691a1e2f2c31fb2ad640c3ae7140
-SHA256: 92a52623837a41c7de205443e67d5a16dbf135c59c45b38f8a2b2e253a99bc3b
-SHA512: da711fb2262e505ce59a66e3c3d66e13ea544ba6ebca519601749bc11b5226a48b2eeae3648becb07cfbe3546eedba9229f9b5f2c8ef9958120dbf72bb8826e9
+Filename: dists/termux/main/binary-x86_64/libimobiledevice_1.3.0-p20250106-0_x86_64.deb
+Size: 234596
+MD5Sum: 50d65b74dfea8539ae52cad6b80f3a5d
+SHA1: efbaccc7ab579278d1a1c2517f0f7f785c1e50b1
+SHA256: 3d50abdec92fa860c44b60bfebbae793712a6603306df7369a21b2cf79894287
+SHA512: a46aafd42ffea3d6aabe1f9707d3d96273abf3dc238ab5760d559a1f256fe7736138399e6369b5538d21ba5852ad33cf8573675358668a81a429cdf83123dd59
 
 Package: libtatsu-static
 Architecture: x86_64
 Installed-Size: 108
 Maintainer: @xunmod
-Version: 1.0.4
+Version: 1.0.4-1
 Homepage: https://libimobiledevice.org/
-Depends: libtatsu (= 1.0.4)
+Depends: libtatsu (= 1.0.4-1)
 Description: Static libraries for libtatsu
-Filename: dists/termux/main/binary-x86_64/libtatsu-static_1.0.4_x86_64.deb
-Size: 15068
-MD5Sum: c95bf569eea72bb2bb669a5da18df3ba
-SHA1: 462d5a348dc4b5464a50e0835c1194c6ae09824b
-SHA256: ac2a667fff48e89fb9e5e1dd65b2b1ebfaccb748d770a57c72bdf6cb3f669651
-SHA512: 74996d1d9a35f932f133120ac01a69a6f7c33d8f0719c9b6695e435215fdd288932978ebadaab3122717177ce506c1c01d026b4e92b1f773264849c7e5e99317
+Filename: dists/termux/main/binary-x86_64/libtatsu-static_1.0.4-1_x86_64.deb
+Size: 15100
+MD5Sum: 85e9638da4e8477fa2992065465a3e59
+SHA1: 1b8623caf950ddf2fe19972cc7ef2697a728f36d
+SHA256: 585be5eb0ee5a80b429b57c3b4faab4c0fe436f423dbf4aa4ad0c252d04adebd
+SHA512: 8a1e9f6ebcc0db578a0791278272baf4b1a907e48b9f34f9f0795cc760cb27126b9a43dc8538130b8b91aa6ffcbbc1527de87bbc6cc76c5faed1840da4f316f0
 
 Package: libtatsu
 Architecture: x86_64
 Installed-Size: 104
 Maintainer: @xunmod
-Version: 1.0.4
+Version: 1.0.4-1
 Homepage: https://libimobiledevice.org/
-Depends: libcurl (>= 7.0), libplist
+Depends: libcurl (>= 7.0), libplist (>= 2.6.0)
 Description: Library handling the communication with Apple's Tatsu Signing Server (TSS)
-Filename: dists/termux/main/binary-x86_64/libtatsu_1.0.4_x86_64.deb
-Size: 15380
-MD5Sum: b6218923ad83c04e5236514dd170fddb
-SHA1: 410becb7fd7a977867cf2df71c2268194f9c595c
-SHA256: d859e0d4f7aef41f2ef05ca9d3447218aa6f53cb480a7ac0833a655b329e5752
-SHA512: 0dec6b2a9e21fb5761a7bb423aeab9912139a7f164b20ac0f61b4e712cb4512488292c1d3128ba5acc83dc1ce3f8bc5df752f25cf6d029cf75a445378c279349
+Filename: dists/termux/main/binary-x86_64/libtatsu_1.0.4-1_x86_64.deb
+Size: 15392
+MD5Sum: e3c94ea6fe87703416434c74bddb72de
+SHA1: cecb2235322c66d39e342e4ddd532cd0a64ffdd6
+SHA256: e503bee653a1301253d26f1415f087d8544a624a9c0e566c0439c7481da001fe
+SHA512: 93042600a9e54d17f0e85067837c1bc282b3b4e434c0afc70cda2bcd6d29ca1502c8ec751bf61cab43862c3174b752738249c5ee60e3fbe7242981c791fae5f5
 
 Package: libusbmuxd-static
 Architecture: x86_64
 Installed-Size: 80
 Maintainer: @xunmod
-Version: 2.1.0-p20250101-0
+Version: 2.1.0-p20250101-1
 Homepage: https://libimobiledevice.org
-Depends: libusbmuxd (= 2.1.0-p20250101-0)
+Depends: libusbmuxd (= 2.1.0-p20250101-1)
 Description: Static libraries for libusbmuxd
-Filename: dists/termux/main/binary-x86_64/libusbmuxd-static_2.1.0-p20250101-0_x86_64.deb
-Size: 12596
-MD5Sum: 5b36c0512cfdfd908be7a12d67817cac
-SHA1: fa35163d1e7f34ee1eaf83c8d4f9a88078ba27d8
-SHA256: 8c026703697c1f7933962582f88b3c8a22e864c1c774db05b48bb1a6d486ebc3
-SHA512: b8777be6ffbd4575e81f08523f9c9023938fb01c93c7d3e506017e22b8b75a08444c440247b10ffa34a91e73e1176bcea8c3978f5e9621248565ace8133c5da8
+Filename: dists/termux/main/binary-x86_64/libusbmuxd-static_2.1.0-p20250101-1_x86_64.deb
+Size: 12612
+MD5Sum: 9808869afea2cd78ec0d0fb540a69621
+SHA1: faf190cc793c3fdd0a3f5242ca9613182a82cb5c
+SHA256: 849b4567f3b4c336ea715a38eb5ca484731d3c0d883be6cc63a28c237ce5f58f
+SHA512: 44eb769a9fe67ddf10307ac09d4769830a1419f613bf113a32017807718ad66fb28181124f1df5e3119540884d80cf92e32549a29198533562bfab746ab92578
 
 Package: libusbmuxd
 Architecture: x86_64
 Installed-Size: 152
 Maintainer: @xunmod
-Version: 2.1.0-p20250101-0
+Version: 2.1.0-p20250101-1
 Homepage: https://libimobiledevice.org
-Depends: libimobiledevice-glue, libplist, libusb
+Depends: libimobiledevice-glue (>= 1.2.0), libplist (>= 2.2.0)
 Description: A client library for applications to handle usbmux protocol connections with iOS devices
-Filename: dists/termux/main/binary-x86_64/libusbmuxd_2.1.0-p20250101-0_x86_64.deb
-Size: 23740
-MD5Sum: 96076b91a1eb427f5713d9bcead8b010
-SHA1: 6799a208cb17dfe82cbcb45e3e047344e2cdad05
-SHA256: a1e286b75f6db38022d793233a25f801f0c1e0146510d6ca1bf338c60ea27b48
-SHA512: 4bdaf9c9f8d57df7abdcbbe51403f2c5fa110ff46c035a43b8181be8571e46abe20fb0905681748ad006b26684977fe354226b40cc24760c50c097668dfeb92f
+Filename: dists/termux/main/binary-x86_64/libusbmuxd_2.1.0-p20250101-1_x86_64.deb
+Size: 23816
+MD5Sum: e721b6b8e489acffb062a64ad7a7e12b
+SHA1: 065732c835bc751bc7890a0dd944d277443cdecf
+SHA256: 3e2b2ae0d41ade220ad658f5ff9e8e9133e6f02a2b00093d5f7ec454fd55c104
+SHA512: 71c69c254365224e1a04ec94b110577920412bfa4bd359ee82a6614f2968cd2ee74ce5f673d424b8b1c36297b160eb7574245c00004b3d9168787290610c1b6d
 
 Package: netmuxd
 Architecture: x86_64
-Installed-Size: 3372
+Installed-Size: 3460
 Maintainer: @xunmod
-Version: 0.1.4-p20241114-1
+Version: 0.1.4-p20250108-0
 Homepage: https://github.com/jkcoxson/netmuxd
-Depends: libimobiledevice, libplist, openssl
+Depends: libimobiledevice, libplist, libusb, openssl
 Description: A replacement/addition to usbmuxd which is a reimplementation of Apple's usbmuxd on MacOS
-Filename: dists/termux/main/binary-x86_64/netmuxd_0.1.4-p20241114-1_x86_64.deb
-Size: 791860
-MD5Sum: cb7da905d4995275868f16b32c6ce1bc
-SHA1: ec9f8e9b4fafcecf4f1c713f614db62b1dc3ff82
-SHA256: 660128c738d1b38f6dd1ff2cc6beb98bb79764421b8d3f83ff70200182634332
-SHA512: 857e55b13513ea74816b67e2774251e8110f2caec584a493075135c1949525eb6293c7bdab9424e54ae65a392b33b0988876fca4901ce691be404dd2ef375476
+Filename: dists/termux/main/binary-x86_64/netmuxd_0.1.4-p20250108-0_x86_64.deb
+Size: 806472
+MD5Sum: 148953b141f5f53e5822da7458f7cc1c
+SHA1: 86e7147adf573c46946cce7046ecdd1f81c3514b
+SHA256: 508f55e6a2604e5c892f076eeec2542d40b96d89ef79a9783ae006a8fab227aa
+SHA512: f7696e485b89b03e03b92df65a701dbb4623c144319032e7f194c87a195637edc5923f0c0266558ddcfd1d324b980e7f373ba177dbf09b55f737303644f11e45
 
 Package: python-cryptography
 Architecture: x86_64
@@ -142,11 +142,11 @@ Homepage: https://github.com/pyca/cryptography
 Depends: openssl, python, python-pip
 Description: Provides cryptographic recipes and primitives to Python developers
 Filename: dists/termux/main/binary-x86_64/python-cryptography_44.0.0_x86_64.deb
-Size: 1071968
-MD5Sum: de6c4143a85c4d0117287173623deb45
-SHA1: d6742a4a73c50905c2e230122b53487e38cac4e0
-SHA256: 1972396620688e1a7d6753654be3e1dc49fd579db6e9d3ff792054622dd3b5b6
-SHA512: 2037c5df116fb2339c4c970efaa19cffca7550ed780181a15ea27df250a1a41b3578efa6237d47383d9dbf50f131ced1e3d76bd249b4f42f0f54d88c5dc01a1a
+Size: 1072512
+MD5Sum: 7bf0b789db2d2aaf61dbc5dfd7a0a010
+SHA1: ea092adccc9e554d5208dad80b5d96fb25d6de87
+SHA256: e442b09b380e064d11dc9dae0409c5792ab3bef80ecd0ea1023c93f6aa3cfa56
+SHA512: 42e6c667bd8c653e27dadf1d1b19a447d14b1cbdc65a74d540c41b41daad706f29f8fb17cd1429071548d713840d8b00c631dec1881320b6e90e4260716f844d
 
 Package: python-maturin
 Architecture: x86_64
@@ -157,11 +157,11 @@ Homepage: https://github.com/PyO3/maturin
 Depends: python
 Description: Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages
 Filename: dists/termux/main/binary-x86_64/python-maturin_1.8.1_x86_64.deb
-Size: 3447824
-MD5Sum: 3ee3151babcbf3cdf54d888420c2c15b
-SHA1: efbc96b111cb270c61be2239a04e188ac75aec2e
-SHA256: 464d85aed4b7b0e59dd3088d65cedd52933e814f14e7032ecf30ab8917655e23
-SHA512: f6d3e9b2f7ee193de04c1675d86df19814c694da523f19f6b0fd6ad44693da21cb3c233e7a28cbd23f986def251df56e3d547235843a9e6da4277922e30ce9c8
+Size: 3441536
+MD5Sum: 2fe4b324f0ed2b3822fac21049282fb3
+SHA1: 09c5a77ce224eed59ecf92d329fd7a652c0af9e5
+SHA256: e08b06ca3487f74e0390d51b0129d8a8a0bcc877a6b0ffe79bd6a5905011eb9d
+SHA512: cafed22abc859bfc447e5dfc052fe9ceed82ddbf97519faf58c654d65e6905cbc6ec0f06eb078ae0eb114dc9136698243f6be6a805503f355569166dfcdf93da
 
 Package: python-qh3
 Architecture: x86_64
@@ -172,11 +172,11 @@ Homepage: https://github.com/jawah/qh3
 Depends: python
 Description: Lightweight QUIC and HTTP/3 implementation in Python
 Filename: dists/termux/main/binary-x86_64/python-qh3_1.2.1_x86_64.deb
-Size: 1521760
-MD5Sum: 5344c6589a894afe8b3cd4f656c9cef4
-SHA1: f938f9b33418a81dc3a5eb30cf518a4866747b8e
-SHA256: 0eae14dd9ed659fee099ca1a61b687d1e2afdd28db74c98abd276e7827fed28c
-SHA512: b016a7351c3e3572677ba16596805784f0f5fa2ec6e3a2ef971790097f05e7f9f95e73f06886805db69d43ca1e3a5477c9cff0b6b2b0f776a7ca149e5947615c
+Size: 1520164
+MD5Sum: 41d8f313b0d4db00148565c2c24b1a11
+SHA1: 89cb35516ef14fdb050dccc27c9e53f750212ced
+SHA256: 80656cdea5ec8792767e682f1514b05147d88ce4b65b7efcf5b50a84a046e9e5
+SHA512: e0bf871a547b918450f2d00d474c859ad9b0354c1de1b02afd00dc04da514df8e809ff63dd4320bb79f97c16a00cf87d40ff3c48dba14277de8d005343eb3b13
 
 Package: python-zeroconf
 Architecture: x86_64
@@ -187,24 +187,24 @@ Homepage: https://github.com/python-zeroconf/python-zeroconf
 Depends: python
 Description: A pure python implementation of multicast DNS service discovery
 Filename: dists/termux/main/binary-x86_64/python-zeroconf_0.136.2_x86_64.deb
-Size: 826556
-MD5Sum: 65dbe85e8d983187d21a842110f65bb7
-SHA1: 57739f896021d871b2e169124f7981d26f2c3f24
-SHA256: 7b6b0f2d65be81f6ed98c0e6c1799faf11858cdacda5647d5b353527467efdff
-SHA512: cc73c6b2d29d91ba0f7af22d6d922768149e8b0a53ba86890434df4d5020d5e1f8afaad12b0d32035c66afca3003608aede3fecfb162baaed83d9705141f5f72
+Size: 826408
+MD5Sum: 11cbc76ac53a6bad449ff8322f1499dc
+SHA1: 1ed5c02e64878e6ecc7a5bad7df4eb0498e116c1
+SHA256: b674b2a823cd5eff8f7f635790a0a3418be922863f461fc40bf40670ca39e2c1
+SHA512: b6a3e88a60a55c936eab146fa7e4bfb34435ed2f873eca1ad9853a999f6950bcd5aefb34d5016f7439d2fdf34ffbfedc515b83005ce1cc5f4dc5ca348deb19dc
 
 Package: sideloader
 Architecture: x86_64
-Installed-Size: 5888
+Installed-Size: 5856
 Maintainer: @xunmod
-Version: 1.0-pre4-p20241222-0
+Version: 1.0-pre4-p20250111-0
 Homepage: https://github.com/Dadoum/Sideloader
 Depends: libandroid-execinfo, libimobiledevice, libplist, libusbmuxd
 Description: Open-source cross-platform iOS app sideloader
-Filename: dists/termux/main/binary-x86_64/sideloader_1.0-pre4-p20241222-0_x86_64.deb
-Size: 1450664
-MD5Sum: 5bd13a3adf8409c882bd410397e2b917
-SHA1: eac4fc4a57e859ebba9996e53eeeab3a5db090ed
-SHA256: b7ecc1d9dbc4502459da4870da3403920ebc3926df4ecdfc12744d7e146fe8e2
-SHA512: 84dc79b0a1b14797eedfde6ff98c2d06b3c5f886e8a3d8f65d017b38b87da72e750bdf3e8222ca1c60825adaf6640ab6f62fbc3e1e8c4b97e907d822f040cd6e
+Filename: dists/termux/main/binary-x86_64/sideloader_1.0-pre4-p20250111-0_x86_64.deb
+Size: 1441748
+MD5Sum: 5ec74f58895e96fbd5f380515c1ad011
+SHA1: 6710f2d96882b42d828ca6f1d82e4624dd27abbb
+SHA256: a938aec8edf462b272dbc507c77ea0b91b77012b99642c67e0ad076ca7641aec
+SHA512: 9dd722c545531799515ae3ea21d0327a4b06931fa660a136e66875da2c8a748a19158957bc4bfde2a08e0b08eb6945c84e10c9131e81f214af4d8c3f3a89a592
 

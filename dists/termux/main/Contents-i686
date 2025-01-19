@@ -106,6 +106,7 @@ data/data/com.termux/files/usr/share/doc/libusbmuxd/copyright                   
 data/data/com.termux/files/usr/share/doc/libusbmuxd/copyright.1                  libusbmuxd
 data/data/com.termux/files/usr/share/man/man1/inetcat.1.gz                       libusbmuxd
 data/data/com.termux/files/usr/share/man/man1/iproxy.1.gz                        libusbmuxd
+data/data/com.termux/files/usr/bin/add_device                                    netmuxd
 data/data/com.termux/files/usr/bin/netmuxd                                       netmuxd
 data/data/com.termux/files/usr/bin/passthrough                                   netmuxd
 data/data/com.termux/files/usr/share/doc/netmuxd/copyright                       netmuxd
