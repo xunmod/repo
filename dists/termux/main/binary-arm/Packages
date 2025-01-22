@@ -122,16 +122,16 @@ Package: netmuxd
 Architecture: arm
 Installed-Size: 2116
 Maintainer: @xunmod
-Version: 0.1.4-p20250108-1
+Version: 0.1.4-p20250108-2
 Homepage: https://github.com/jkcoxson/netmuxd
 Depends: libimobiledevice, libplist, openssl
 Description: A replacement/addition to usbmuxd which is a reimplementation of Apple's usbmuxd on MacOS
-Filename: dists/termux/main/binary-arm/netmuxd_0.1.4-p20250108-1_arm.deb
-Size: 661448
-MD5Sum: 4e1d425301decd5f3175c800616ed61b
-SHA1: 4e06dfd8537562bbbd8fa0d6607b1049541c64d7
-SHA256: 907f6093862c4883fab22bf041a29044fd12bdfe2d5b9334a6446bb69d3be45e
-SHA512: 5964fabfe88e5fcb0b40c661be776ae6dd7532fa691a891702a7def5c9f4d6b77df087502839fc6a7d705de91fee3d65ef8f52fb97c3ba2ecb3e895e3a813f8f
+Filename: dists/termux/main/binary-arm/netmuxd_0.1.4-p20250108-2_arm.deb
+Size: 663456
+MD5Sum: e0c157ecd27480b916fcc985c57de7de
+SHA1: 0f5462183428546c7bdb319f7005669946759704
+SHA256: 6759602dfe5220300e524950dd44911e1a47c7c1e200b73d2a980f36c9f81609
+SHA512: 5fc965bab8e4710acc3885c8970ed612696f0c6d35ec6a61da2ba5dc6a7b0cda462bf96d5a8aaa4bda3a817bb7c45ee8853edecf3c6d8c20dbbea7704e74682e
 
 Package: python-cryptography
 Architecture: arm

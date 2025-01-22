@@ -120,18 +120,18 @@ SHA512: 84b5e3835f0bf73f8cae555d2f3f473e9213d4e0f99aeb47215cfb0a154b6bd944045c0c
 
 Package: netmuxd
 Architecture: i686
-Installed-Size: 3584
+Installed-Size: 3588
 Maintainer: @xunmod
-Version: 0.1.4-p20250108-1
+Version: 0.1.4-p20250108-2
 Homepage: https://github.com/jkcoxson/netmuxd
 Depends: libimobiledevice, libplist, openssl
 Description: A replacement/addition to usbmuxd which is a reimplementation of Apple's usbmuxd on MacOS
-Filename: dists/termux/main/binary-i686/netmuxd_0.1.4-p20250108-1_i686.deb
-Size: 860032
-MD5Sum: 13af6b2f9d749946c27178b2add142f8
-SHA1: 0938a02e57b7477b7b95ab9bc2d877f72dfa1d70
-SHA256: 4b8b91a0b8c4fc2ef5bac7175a4ede10f1c6515288ae6d796590f1fde64584c7
-SHA512: 1827e85607ae4f15003f0532c81fd006241852f685cea278def8d90150fc94830e1d2229e853c5eb7f916c1c8de0b00cbfe9c9281383772aa957be6c95bef626
+Filename: dists/termux/main/binary-i686/netmuxd_0.1.4-p20250108-2_i686.deb
+Size: 860416
+MD5Sum: edb1df78bffbd23755846bf343716bc8
+SHA1: bc382668aa08753ea4a13f35ce050fb1d009af5d
+SHA256: 85a560548f27a76bd2912639b8e57693b06b84bd7585545c934c69b61f0bc625
+SHA512: 2062adfaea378daf67ed553fd22176e646a1a58be2ff8027efb381133abcb1bd9b64461267e4eb3d7108faf78b1d543a2ed98295c8b9f06f8e0c1029b7c1855e
 
 Package: python-cryptography
 Architecture: i686
