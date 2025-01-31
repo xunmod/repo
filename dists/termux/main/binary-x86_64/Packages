@@ -137,14 +137,14 @@ Package: sideloader
 Architecture: x86_64
 Installed-Size: 5856
 Maintainer: @xunmod
-Version: 1.0-pre4-p20250111-0
+Version: 1.0-pre4-p20250111-1
 Homepage: https://github.com/Dadoum/Sideloader
 Depends: libandroid-execinfo, libimobiledevice, libplist, libusbmuxd
 Description: Open-source cross-platform iOS app sideloader
-Filename: dists/termux/main/binary-x86_64/sideloader_1.0-pre4-p20250111-0_x86_64.deb
-Size: 1440540
-MD5Sum: dee98806859053d86ccefa939976f955
-SHA1: e8c57d11e5f8e6b4c2a1cb4c5b3f7f76c4436525
-SHA256: 465999e004f42c992f099a5ebfa8233ebf6f74bef5d3f0825ea9943c18261634
-SHA512: 7c155f7e7105d1262581bac87fa5b7dcf2053b3528871d501a58d112bf36657399be766b325a8a78ffb65823ea38db6fb914ed3d725aecce42b56f00576cde78
+Filename: dists/termux/main/binary-x86_64/sideloader_1.0-pre4-p20250111-1_x86_64.deb
+Size: 1440580
+MD5Sum: 4cb36df6796126926567682105361043
+SHA1: 65ee27e2ac91c10c280277fe7b7ce811a431343f
+SHA256: cda03913ebffd7d092837c9582c0f44d5d49e9a5b88cf3ef9d1fc298c85a97a7
+SHA512: a981c7c23b60494b94220e971ba8ea0796dce5ff6cafd461b0000863210503269a56b6612d6a7000368871f5daa731965ec27a03592d87f5ff3ed4b17e7f67d9
 

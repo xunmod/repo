@@ -135,16 +135,16 @@ SHA512: 13a42dbe2cde1776c752621252b463e6e607a18165a839f5793abf1b02972c7d77364d9f
 
 Package: sideloader
 Architecture: aarch64
-Installed-Size: 5100
+Installed-Size: 5084
 Maintainer: @xunmod
-Version: 1.0-pre4-p20250111-0
+Version: 1.0-pre4-p20250111-1
 Homepage: https://github.com/Dadoum/Sideloader
 Depends: libandroid-execinfo, libimobiledevice, libplist, libusbmuxd
 Description: Open-source cross-platform iOS app sideloader
-Filename: dists/termux/main/binary-aarch64/sideloader_1.0-pre4-p20250111-0_aarch64.deb
-Size: 1203960
-MD5Sum: 7d36ec0e02207cb73f74d433d7e29c05
-SHA1: 610499c0d7f9cefb500d3683679abc69f49d95d9
-SHA256: 70066b5c32a51d6d6afbf3b560592d4f560e2523d287283c501162516ab1a139
-SHA512: 2403e1061b2ea162a9822100971af7666f8cdc93bb67c0a96eea7b1dfdd70881ec6e8fea1c737cb53a1f8e9ab3f48bcbec98357c0737dc6e0ce0c39f265e9c7f
+Filename: dists/termux/main/binary-aarch64/sideloader_1.0-pre4-p20250111-1_aarch64.deb
+Size: 1202520
+MD5Sum: d4293da9695773b5f0a4b5fc328c55db
+SHA1: a72387eb2d6e0c8923ec4171623cc280167693cd
+SHA256: 20640a5d57fa15058e879b22babcf4f8997961a07142fb49eaafc31a88e17a0f
+SHA512: e8442be6fd05ef934b2777c85004e4cd06d439e8d4c8b42edea5e86571b481bfcdd4b41feb4c3a4516967c64fd8af2925879367ba7dbd21eaac71af5b5251231
 
